@@ -2,11 +2,13 @@
 @model RazorPages1.Pages.Alumnos.EditModel
 @{
 
-//usamos Model.alumno para acceder al objeto alumno que está dentro de la clase
-var photo = "~/images/" + (Model.alumno.Foto ?? "noimage.jpg");
+    //usamos Model.alumno para acceder al objeto alumno que está dentro de la clase
+    var photo = "~/images/" + (Model.alumno.Foto ?? "noimage.jpg");
+    //Titulo sirve para cambiar lo que pone en la pagina si estamos editando o añadiendo un alumno
+    var titulo = Model.alumno.Id > 0 ? "Editar" : "Crear"; 
 }
 
-<h1 align="center"> Edición datos alumno</h1>
+<h1 align="center">@titulo alumno</h1>
 <form method="post" class="mt-3" enctype="multipart/form-data">
     <!--hay que añadir el tipo de encriptamiento-->
     <!--se suele utilizar el método POST-->

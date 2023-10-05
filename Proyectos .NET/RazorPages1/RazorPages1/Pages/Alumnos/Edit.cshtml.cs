@@ -27,9 +27,18 @@ namespace RazorPages1.Pages.Alumnos
             WebHostEnvironment = webHostEnvironment;
         }
         //se ejecuta siempre al cargar la página con el get
-        public void OnGet(int id)
-        {
-            alumno = alumnoRepositorio.GetAlumnoById(id);
+                        //El interrogante quiere decir que puede haber un valor o no
+        public void OnGet(int? id) //Esta página se usa tanto para editar datos como para insertarlos. Si hay id quiere decir que es para editar
+        {                         
+            if (id.HasValue) //Si el id tiene valor quiere decir que existe el alumno y hacemos lo necesario para editar
+            {
+            alumno = alumnoRepositorio.GetAlumnoById(id.Value); //Cogeríamos los datos del alumno y los mostramos en el formulario
+            }
+            else
+            {   //En este punto alumno no esta instanciado, lo instanciamos y luego le damos el valor del objeto de la clase alumno que devuelve añadir
+                alumno = new Alumno();
+                alumno = alumnoRepositorio.Add(alumno);
+            }
         }
         //cuando demos al botón de submit se ejecutará éste metodo
         //en vez de void, va a devolver una acción

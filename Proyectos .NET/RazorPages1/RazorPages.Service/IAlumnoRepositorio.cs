@@ -22,5 +22,8 @@ namespace RazorPages.Service
         Alumno GetAlumnoById(int id);
         //Una función que guarde los cambios del alumno
         void Update(Alumno alumnoActualizado);
+
+        //Metodo para crear alumnos
+        Alumno Add(Alumno alumnoNuevo);
     }
 }
