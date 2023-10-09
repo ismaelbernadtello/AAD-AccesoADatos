@@ -69,8 +69,6 @@ namespace RazorPages.Service
              * Esta forma de trabajar se llama modo predicado*/
             return ListaAlumnos.FirstOrDefault(a => a.Id == id);
         }
-
-        //Metodo para editar los datos de un alumno
         public void Update(Alumno alumnoActualizado)
         {
             Alumno alumno = ListaAlumnos.FirstOrDefault(a => a.Id == alumnoActualizado.Id);
@@ -80,17 +78,11 @@ namespace RazorPages.Service
             alumno.Foto = alumnoActualizado.Foto;
             
         }
-
-        //Metodo para añadir un alumno nuevo
-        public Alumno Add(Alumno alumnoNuevo)
+        public void Add(Alumno alumnoNuevo)
         {
-            //Para el ID no podemos dejar que el usuario eliga, tenemos que poner el último que exista + 1
-            //Buscamos en la lista de alumnos el máximo id
-            alumnoNuevo.Id = ListaAlumnos.Max(a => a.Id) + 1; //Volvemos a usar el operador lambda
-            ListaAlumnos.Add(alumnoNuevo); //Añadimos el alumno a la lista
-
-
-            return alumnoNuevo;
+            alumnoNuevo.Id = ListaAlumnos.Max(a => a.Id) + 1;
+            ListaAlumnos.Add(alumnoNuevo);
         }
+
     }
 }

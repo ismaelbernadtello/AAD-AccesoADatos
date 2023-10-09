@@ -11,52 +11,62 @@ namespace RazorPages1.Pages.Alumnos
 {
     public class EditModel : PageModel
     {
-
         //declaramos un atributo de clase de la clase IAlumnoRepositorio para poder llamar al método GetAlumnoById
         private readonly IAlumnoRepositorio alumnoRepositorio;
+        public IWebHostEnvironment WebHostEnvironment { get; }//en el destornillador crear y asignar la propiedad
 
+        [BindProperty]//esto permite que se actualice
         public Alumno alumno { get; set; }
 
         //el atributo Photo de la clase IFormFile que es diferente del atributo Foto de la clase Alumno
+        [BindProperty]
         public IFormFile Photo { get; set; }
-        public IWebHostEnvironment WebHostEnvironment { get; }//en el destornillador crear y asignar la propiedad
+        
 
         public EditModel(IAlumnoRepositorio alumnoRepositorio, IWebHostEnvironment webHostEnvironment)
         {
             this.alumnoRepositorio = alumnoRepositorio;
             WebHostEnvironment = webHostEnvironment;
         }
-        //se ejecuta siempre al cargar la página con el get
-                        //El interrogante quiere decir que puede haber un valor o no
-        public void OnGet(int? id) //Esta página se usa tanto para editar datos como para insertarlos. Si hay id quiere decir que es para editar
-        {                         
-            if (id.HasValue) //Si el id tiene valor quiere decir que existe el alumno y hacemos lo necesario para editar
+        //se ejecuta siempre al cargar la página a no ser que se haya espeficado que se envían los parámetros con el post
+        //le decimos que puede recibir o no un int
+        public IActionResult OnGet(int? id)
+        {
+            if (id.HasValue)
             {
-            alumno = alumnoRepositorio.GetAlumnoById(id.Value); //Cogeríamos los datos del alumno y los mostramos en el formulario
+                //para que no de error, porque id no sabemos lo que es, le decimos que coja el valor
+                alumno = alumnoRepositorio.GetAlumnoById(id.Value);
             }
             else
-            {   //En este punto alumno no esta instanciado, lo instanciamos y luego le damos el valor del objeto de la clase alumno que devuelve añadir
+            {
                 alumno = new Alumno();
-                alumno = alumnoRepositorio.Add(alumno);
             }
+            return Page();   
         }
         //cuando demos al botón de submit se ejecutará éste metodo
         //en vez de void, va a devolver una acción
         public IActionResult OnPost(Alumno alumno)
         {
-            if (Photo != null)
+            if (ModelState.IsValid)
             {
+                if (Photo != null)
                 {
-                    if(alumno.Foto != null)
                     {
-                        string filePath = Path.Combine(WebHostEnvironment.WebRootPath, "images", alumno.Foto);
-                        System.IO.File.Delete(filePath);
+                        if(alumno.Foto != null)
+                        {
+                            string filePath = Path.Combine(WebHostEnvironment.WebRootPath, "images", alumno.Foto);
+                            System.IO.File.Delete(filePath);
+                        }
                     }
+                    alumno.Foto = ProcessUploadedFile();
                 }
-                alumno.Foto = ProcessUploadedFile();
-            }
-            alumnoRepositorio.Update(alumno);
-            return RedirectToPage("Index");
+                if (alumno.Id != 0)
+                    alumnoRepositorio.Update(alumno);
+                else
+                    alumnoRepositorio.Add(alumno);
+                return RedirectToPage("Index");
+            }else
+                return Page();
         }
 
         private string ProcessUploadedFile()
