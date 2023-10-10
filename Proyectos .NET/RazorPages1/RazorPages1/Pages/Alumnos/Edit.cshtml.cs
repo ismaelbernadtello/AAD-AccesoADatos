@@ -47,7 +47,7 @@ namespace RazorPages1.Pages.Alumnos
         //en vez de void, va a devolver una acción
         public IActionResult OnPost(Alumno alumno)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) //Comprobamos que el modelo del objeto es válido y si es válido se hacen los cambios
             {
                 if (Photo != null)
                 {

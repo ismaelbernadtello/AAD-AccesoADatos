@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPage/RazorPages.Modelos.csproj": {}
+    "C:\\Users\\ismae\\Desktop\\GITHUB-2º\\AAD-AccesoADatos\\Proyectos .NET\\RazorPages1\\RazorPage\\RazorPages.Modelos.csproj": {}
   },
   "projects": {
-    "/Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPage/RazorPages.Modelos.csproj": {
+    "C:\\Users\\ismae\\Desktop\\GITHUB-2º\\AAD-AccesoADatos\\Proyectos .NET\\RazorPages1\\RazorPage\\RazorPages.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPage/RazorPages.Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\ismae\\Desktop\\GITHUB-2º\\AAD-AccesoADatos\\Proyectos .NET\\RazorPages1\\RazorPage\\RazorPages.Modelos.csproj",
         "projectName": "RazorPages.Modelos",
-        "projectPath": "/Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPage/RazorPages.Modelos.csproj",
-        "packagesPath": "/Users/alberto/.nuget/packages/",
-        "outputPath": "/Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPage/obj/",
+        "projectPath": "C:\\Users\\ismae\\Desktop\\GITHUB-2º\\AAD-AccesoADatos\\Proyectos .NET\\RazorPages1\\RazorPage\\RazorPages.Modelos.csproj",
+        "packagesPath": "C:\\Users\\ismae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ismae\\Desktop\\GITHUB-2º\\AAD-AccesoADatos\\Proyectos .NET\\RazorPages1\\RazorPage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alberto/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ismae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
