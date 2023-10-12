@@ -21,14 +21,3 @@ D:/Salesianos/AAD/RazorPages1/RazorPage/obj/Debug/net6.0/ref/RazorPages.Modelos.
 /Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPage/obj/Debug/net6.0/refint/RazorPages.Modelos.dll
 /Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPage/obj/Debug/net6.0/RazorPages.Modelos.pdb
 /Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPage/obj/Debug/net6.0/ref/RazorPages.Modelos.dll
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\bin\Debug\net6.0\RazorPages.Modelos.deps.json
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\bin\Debug\net6.0\RazorPages.Modelos.dll
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\bin\Debug\net6.0\RazorPages.Modelos.pdb
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\RazorPages.Modelos.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\RazorPages.Modelos.AssemblyInfoInputs.cache
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\RazorPages.Modelos.AssemblyInfo.cs
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\RazorPages.Modelos.csproj.CoreCompileInputs.cache
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\RazorPages.Modelos.dll
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\refint\RazorPages.Modelos.dll
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\RazorPages.Modelos.pdb
-C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\ref\RazorPages.Modelos.dll

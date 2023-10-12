@@ -84,15 +84,5 @@ namespace RazorPages.Service
             ListaAlumnos.Add(alumnoNuevo);
         }
 
-        public Alumno Delete(int idABorrar)
-        {
-            Alumno alumnoABorrar = ListaAlumnos.FirstOrDefault(a => a.Id == idABorrar);
-            if (alumnoABorrar != null)
-            {
-                ListaAlumnos.Remove(alumnoABorrar);
-            }
-            return alumnoABorrar;
-        }
-
     }
 }
