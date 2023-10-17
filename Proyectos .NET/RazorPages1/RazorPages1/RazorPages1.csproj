@@ -11,4 +11,8 @@
     <ProjectReference Include="..\RazorPage\RazorPages.Modelos.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Shared\AlumnoCursoContar\" />
+  </ItemGroup>
+
 </Project>

@@ -84,5 +84,14 @@ namespace RazorPages.Service
             ListaAlumnos.Add(alumnoNuevo);
         }
 
+        public IEnumerable<CursoCuantos> AlumnosPorCurso()
+        {
+            return ListaAlumnos.GroupBy(a => a.CursoId)
+                .Select(g => new CursoCuantos() { 
+                                                    Clase = g.Key.Value, 
+                                                    NumAlumnos = g.Count() 
+                                                }).ToList();
+                //Key es la clave del agrupamiento
+        }
     }
 }
