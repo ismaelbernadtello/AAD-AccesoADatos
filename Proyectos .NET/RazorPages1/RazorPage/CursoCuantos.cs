@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace RazorPages.Modelos
 {
-    public class CursoCuantos
-    {
-        public Curso Clase { get; set; }
-        public int NumAlumnos { get; set; }
-
-    }
+	public class CursoCuantos //para que sea accesible desde IAlumnoRepositorio
+	{
+		public Curso Clase { get; set; }
+		public int NumAlumnos { get; set; }
+        
+	}
 }
+

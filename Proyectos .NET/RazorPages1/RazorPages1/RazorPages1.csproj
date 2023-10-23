@@ -12,7 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Shared\AlumnoCursoContar\" />
+    <None Remove="Components\" />
+    <None Remove="Pages\Shared\Components\" />
+    <None Remove="Pages\Shared\Components\AlumnoCurso\" />
   </ItemGroup>
-
+  <ItemGroup>
+    <Folder Include="Components\" />
+    <Folder Include="Pages\Shared\Components\" />
+    <Folder Include="Pages\Shared\Components\AlumnoCurso\" />
+  </ItemGroup>
 </Project>
