@@ -28,5 +28,8 @@ namespace RazorPages.Service
         Alumno Delete(int idBorrar);
         //Un método que devuelva una lista de objetos de la clase CursoCuantos
         IEnumerable<CursoCuantos> AlumnosPorCurso(Curso? curso);
+
+        IEnumerable<Alumno> Busqueda(string elementoABuscar);
+
     }
 }
