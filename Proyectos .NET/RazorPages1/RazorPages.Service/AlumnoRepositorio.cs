@@ -107,5 +107,29 @@ namespace RazorPages.Service
                 }).ToList();//el resultado lo convertimos en lista
           
         }
+
+        public IEnumerable<Alumno> FindAlumnos(string elementoABuscar)
+        {
+            if (string.IsNullOrEmpty(elementoABuscar))
+            {
+                return ListaAlumnos;
+            }
+            else
+            {
+                return ListaAlumnos.Where(a => a.Nombre.Contains(elementoABuscar) || a.Email.Contains(elementoABuscar));
+            }
+        }
+        public IEnumerable<Alumno> FindAlumnosByCurso(Curso elementoABuscar)
+        {
+            if (elementoABuscar == null)
+            {
+                return ListaAlumnos;
+            }
+            else
+            {
+                return ListaAlumnos.Where(a => a.CursoId.Equals(elementoABuscar));
+            }
+            
+        }
     }
 }

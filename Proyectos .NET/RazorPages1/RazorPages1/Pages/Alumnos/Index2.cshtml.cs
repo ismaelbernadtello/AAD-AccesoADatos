@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 namespace RazorPages1.Pages.Alumnos
 {
-    public class IndexModel : PageModel
+    public class Index2Model : PageModel
     {
         //declaramos un atributo de clase de la clase IAlumnoRepositorio para poder llamar al método GetAllAlumnos
         private readonly IAlumnoRepositorio alumnoRepositorio;
@@ -15,22 +15,22 @@ namespace RazorPages1.Pages.Alumnos
         public IEnumerable<Alumno> Alumnos;
         //cuando llamemos al GetAllAlumnos nos devolverá una lista de objetos de la clase Alumno, por lo que creamos 
         //un objeto de esa clase para poder llamarlo.
+        public Curso Curso;
 
-
-        //[BindProperty(SupportsGet = true)]//lo relacionamos con el de la pagina web "elementoAMostrar" ahora lo hacemos sin ello
-        public string elementoABuscar { get; set; } 
+        [BindProperty(SupportsGet = true)]//lo relacionamos con el de la pagina web "elementoAMostrar" ahora lo hacemos sin ello
+        public Curso elementoABuscar { get; set; } 
         
 
-        public IndexModel(IAlumnoRepositorio alumnoRepositorio) 
+        public Index2Model(IAlumnoRepositorio alumnoRepositorio) 
         {
             this.alumnoRepositorio = alumnoRepositorio;
             /*esto es inyección de dependencias:
             * que sin llamar explicitamente a los métodos constructores
             * se creen */
         }
-        public void OnGet(string elementoABuscar = "")
+        public void OnGet()
         {
-            Alumnos = alumnoRepositorio.FindAlumnos(elementoABuscar);
+            Alumnos = alumnoRepositorio.FindAlumnosByCurso(elementoABuscar);
         }
     }
 }
