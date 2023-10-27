@@ -73,3 +73,14 @@ D:/Salesianos/AAD/RazorPages1/RazorPages1/obj/Debug/net6.0/RazorPages1.csproj.Co
 /Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPages1/bin/Debug/net6.0/Microsoft.DotNet.PlatformAbstractions.dll
 /Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPages1/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
 /Users/alberto/gitSalesianos/AAD/RazorPages1/RazorPages1/bin/Debug/net6.0/Newtonsoft.Json.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\RazorPages1.csproj.AssemblyReference.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\RazorPages1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\RazorPages1.AssemblyInfoInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\RazorPages1.AssemblyInfo.cs
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\RazorPages1.csproj.CoreCompileInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\RazorPages1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\RazorPages1.RazorAssemblyInfo.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\RazorPages1.RazorAssemblyInfo.cs
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\RazorPages1.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\refint\RazorPages1.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1\obj\Debug\net6.0\RazorPages1.pdb

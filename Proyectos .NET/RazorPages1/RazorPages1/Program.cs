@@ -10,6 +10,13 @@ builder.Services.AddSingleton<IAlumnoRepositorio, AlumnoRepositorio>();
 
 var app = builder.Build();
 
+//
+IConfiguration configuration = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json")
+    .AddEnvironmentVariables()
+    .Build();
+
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
