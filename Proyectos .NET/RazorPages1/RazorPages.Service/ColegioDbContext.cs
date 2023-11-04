@@ -4,17 +4,14 @@ using RazorPages.Modelos;
 
 namespace RazorPages.Service
 {
-	internal class ColegioDbContext : DbContext
+    public class ColegioDbContext : DbContext
 	{
-        /*Esto es la base de datos y se hace inyección de dependencias de la clase D*/
-        public ColegioDbContext(DbContextOptions<ColegioDbContext> options) : base (options)
+        public ColegioDbContext(DbContextOptions<ColegioDbContext> options) : base(options)
         {
-            
+            //no tenemos que hacer nada más, se instancia el objeto
         }
-        
-        /*Esto es una tabla*/
-        public DbSet<Alumno> Alumnos { get; set; }
-        
+        public DbSet<Alumno> Alumnos { get; set; } //DbSet es un objeto equivalente a un ienumerable y se usa para tratar tablas como listas y a sus elementos como items
+
     }
 }
 

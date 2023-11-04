@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/RazorPages1/RazorPages1/Pages/Alumnos/Buscar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWx1bW5vc1xCdXNjYXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/RazorPages1/RazorPages1/Pages/Alumnos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWx1bW5vc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
