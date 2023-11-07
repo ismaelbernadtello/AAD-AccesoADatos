@@ -1,0 +1,15 @@
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\bin\Debug\net6.0\RazorPages.Service.deps.json
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\bin\Debug\net6.0\RazorPages.Service.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\bin\Debug\net6.0\RazorPages.Service.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\bin\Debug\net6.0\RazorPages.Modelos.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\bin\Debug\net6.0\RazorPages.Modelos.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\obj\Debug\net6.0\RazorPages.Service.csproj.AssemblyReference.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\obj\Debug\net6.0\RazorPages.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\obj\Debug\net6.0\RazorPages.Service.AssemblyInfoInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\obj\Debug\net6.0\RazorPages.Service.AssemblyInfo.cs
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\obj\Debug\net6.0\RazorPages.Service.csproj.CoreCompileInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\obj\Debug\net6.0\RazorPages.Service.csproj.CopyComplete
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\obj\Debug\net6.0\RazorPages.Service.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\obj\Debug\net6.0\refint\RazorPages.Service.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\obj\Debug\net6.0\RazorPages.Service.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPages.Service\obj\Debug\net6.0\ref\RazorPages.Service.dll
