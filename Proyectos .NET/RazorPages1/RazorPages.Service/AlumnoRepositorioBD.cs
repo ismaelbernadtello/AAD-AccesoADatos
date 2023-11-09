@@ -1,4 +1,6 @@
 ﻿using System;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using RazorPages.Modelos;
 
 namespace RazorPages.Service
@@ -15,11 +17,17 @@ namespace RazorPages.Service
 
         public IEnumerable<Alumno> GetAllAlumnos()
         {
-            return context.Alumnos; //este método sólo devuelve la lista
+            //return context.Alumnos; //este método sólo devuelve la lista
+            return context.Alumnos.FromSqlRaw<Alumno>("SELECT * FROM Alumnos").ToList();
         }
         public Alumno GetAlumnoById(int id)
         {
-            return context.Alumnos.Find(id);
+            //return context.Alumnos.Find(id);
+            SqlParameter parametro = new SqlParameter("@id", id);
+
+            return context.Alumnos.FromSqlRaw<Alumno>("GetAlumnoById @id", parametro)
+                .ToList()
+                .FirstOrDefault();
         }
         public void Update(Alumno alumnoActualizado)
         {
@@ -28,11 +36,21 @@ namespace RazorPages.Service
             context.SaveChanges();
 
         }
-        public void Add(Alumno alumnoNuevo)
+        public Alumno Add(Alumno alumnoNuevo)
         {
             //alumnoNuevo.Id = context.Alumnos.Max(a => a.Id) + 1; es autoincrementativo ya no hace falta
-            context.Alumnos.Add(alumnoNuevo);
-            context.SaveChanges();
+
+            //Estos de abajo son para hacerlo sobre la memoria y no sobre la base de datos
+            //context.Alumnos.Add(alumnoNuevo);
+            //context.SaveChanges();
+
+            //Estos de abajo son para hacerlo sobre la base de datos
+            context.Database.ExecuteSqlRaw("insertarAlumno {0}, {1}, {2}, {3}",
+                                            alumnoNuevo.Nombre,
+                                            alumnoNuevo.Email,
+                                            alumnoNuevo.Foto,
+                                            alumnoNuevo.CursoId);
+            return alumnoNuevo;
         }
         public Alumno Delete(int idBorrar)
         {
