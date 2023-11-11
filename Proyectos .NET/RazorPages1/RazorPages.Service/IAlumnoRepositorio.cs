@@ -23,7 +23,7 @@ namespace RazorPages.Service
         //Una función que guarde los cambios del alumno
         void Update(Alumno alumnoActualizado);
         //un método que recibe un objeto de la clase alumno y lo insertará en la lista de alumnos
-        Alumno Add(Alumno alumnoNuevo);
+        void Add(Alumno alumnoNuevo);
         //un método que reciba un objeto de la clase alumno y lo elimine de la lista
         Alumno Delete(int idBorrar);
         //Un método que devuelva una lista de objetos de la clase CursoCuantos
