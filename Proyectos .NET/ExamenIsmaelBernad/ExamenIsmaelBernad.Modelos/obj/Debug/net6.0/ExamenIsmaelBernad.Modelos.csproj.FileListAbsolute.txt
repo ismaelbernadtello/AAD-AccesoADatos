@@ -1,0 +1,12 @@
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\bin\Debug\net6.0\ExamenIsmaelBernad.Modelos.deps.json
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\bin\Debug\net6.0\ExamenIsmaelBernad.Modelos.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\bin\Debug\net6.0\ExamenIsmaelBernad.Modelos.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\obj\Debug\net6.0\ExamenIsmaelBernad.Modelos.csproj.AssemblyReference.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\obj\Debug\net6.0\ExamenIsmaelBernad.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\obj\Debug\net6.0\ExamenIsmaelBernad.Modelos.AssemblyInfoInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\obj\Debug\net6.0\ExamenIsmaelBernad.Modelos.AssemblyInfo.cs
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\obj\Debug\net6.0\ExamenIsmaelBernad.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\obj\Debug\net6.0\ExamenIsmaelBernad.Modelos.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\obj\Debug\net6.0\refint\ExamenIsmaelBernad.Modelos.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\obj\Debug\net6.0\ExamenIsmaelBernad.Modelos.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Modelos\obj\Debug\net6.0\ref\ExamenIsmaelBernad.Modelos.dll

@@ -1,0 +1,21 @@
+﻿@page
+@model ExamenIsmaelBernad.Pages.Provincias.ListaProvinciasModel
+@{
+}
+<h1>Provincias</h1>
+
+<div class="card-group">
+    @foreach(var provincia in Model.Provincias)
+    {
+        <div class="card m-3 border" style="min-width: 18rem; max-width:30%">
+            <div class="card-header">
+                <p>CodProvincia: @provincia.codProvincia</p>
+                <p>NomProvincia:  @provincia.nomProvincia</p>
+                <p>Superficie: @provincia.superficie</p>
+                <p>Numero habitantes:  @provincia.nomProvincia</p>
+                <p>CodComunidad: @provincia.codComunidad</p>
+                
+            </div>
+        </div>
+    }
+</div>

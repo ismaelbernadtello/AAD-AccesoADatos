@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenIsmaelBernad", "ExamenIsmaelBernad\ExamenIsmaelBernad.csproj", "{8E9BAE78-34F7-4CA1-B9EA-6702E842CD92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamenIsmaelBernad", "ExamenIsmaelBernad\ExamenIsmaelBernad.csproj", "{8E9BAE78-34F7-4CA1-B9EA-6702E842CD92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenIsmaelBernad.Modelos", "ExamenIsmaelBernad.Modelos\ExamenIsmaelBernad.Modelos.csproj", "{9E4B76D5-BC1A-4D4D-93BD-3A9D8C484754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamenIsmaelBernad.Modelos", "ExamenIsmaelBernad.Modelos\ExamenIsmaelBernad.Modelos.csproj", "{9E4B76D5-BC1A-4D4D-93BD-3A9D8C484754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenIsmaelBernad.Services", "ExamenIsmaelBernad.Services\ExamenIsmaelBernad.Services.csproj", "{E814CE6F-A9E6-4F51-BB70-92BE3929DC2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamenIsmaelBernad.Services", "ExamenIsmaelBernad.Services\ExamenIsmaelBernad.Services.csproj", "{E814CE6F-A9E6-4F51-BB70-92BE3929DC2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

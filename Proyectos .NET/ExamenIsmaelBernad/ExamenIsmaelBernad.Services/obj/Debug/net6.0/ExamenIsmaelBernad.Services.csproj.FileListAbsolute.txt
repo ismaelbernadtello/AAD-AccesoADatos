@@ -1,0 +1,15 @@
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\bin\Debug\net6.0\ExamenIsmaelBernad.Services.deps.json
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\bin\Debug\net6.0\ExamenIsmaelBernad.Services.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\bin\Debug\net6.0\ExamenIsmaelBernad.Services.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\bin\Debug\net6.0\ExamenIsmaelBernad.Modelos.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\bin\Debug\net6.0\ExamenIsmaelBernad.Modelos.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\obj\Debug\net6.0\ExamenIsmaelBernad.Services.csproj.AssemblyReference.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\obj\Debug\net6.0\ExamenIsmaelBernad.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\obj\Debug\net6.0\ExamenIsmaelBernad.Services.AssemblyInfoInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\obj\Debug\net6.0\ExamenIsmaelBernad.Services.AssemblyInfo.cs
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\obj\Debug\net6.0\ExamenIsmaelBernad.Services.csproj.CoreCompileInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\obj\Debug\net6.0\ExamenIsmaelBernad.Services.csproj.CopyComplete
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\obj\Debug\net6.0\ExamenIsmaelBernad.Services.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\obj\Debug\net6.0\refint\ExamenIsmaelBernad.Services.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\obj\Debug\net6.0\ExamenIsmaelBernad.Services.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\ExamenIsmaelBernad\ExamenIsmaelBernad.Services\obj\Debug\net6.0\ref\ExamenIsmaelBernad.Services.dll
