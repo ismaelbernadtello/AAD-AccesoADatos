@@ -19,6 +19,7 @@ namespace RazorPages.Service
         {
             //return context.Alumnos; //este método sólo devuelve la lista
             return context.Alumnos.FromSqlRaw<Alumno>("SELECT * FROM Alumnos").ToList();
+            //También se puede hacer con return context.Alumnos
         }
         public Alumno GetAlumnoById(int id)
         {
@@ -45,7 +46,7 @@ namespace RazorPages.Service
             //alumnoNuevo.Id = context.Alumnos.Max(a => a.Id) + 1; es autoincrementativo ya no hace falta
             //context.Alumnos.Add(alumnoNuevo);
             //context.SaveChanges();
-            
+            //Estos datos los vamos a pasar a un procedimiento almacenado
             context.Database.ExecuteSqlRaw("insertarAlumno {0}, {1}, {2}, {3}",
                 alumnoNuevo.Nombre,
                 alumnoNuevo.Email,

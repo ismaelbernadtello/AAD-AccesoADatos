@@ -9,3 +9,4 @@ C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\Ra
 C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\refint\RazorPages.Modelos.dll
 C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\RazorPages.Modelos.pdb
 C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\ref\RazorPages.Modelos.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\RazorPages1\RazorPage\obj\Debug\net6.0\RazorPages.Modelos.csproj.AssemblyReference.cache

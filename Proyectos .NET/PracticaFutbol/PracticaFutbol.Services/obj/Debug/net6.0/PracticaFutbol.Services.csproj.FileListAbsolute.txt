@@ -1,0 +1,15 @@
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\bin\Debug\net6.0\PracticaFutbol.Services.deps.json
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\bin\Debug\net6.0\PracticaFutbol.Services.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\bin\Debug\net6.0\PracticaFutbol.Services.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\bin\Debug\net6.0\PracticaFutbol.Modelos.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\bin\Debug\net6.0\PracticaFutbol.Modelos.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\obj\Debug\net6.0\PracticaFutbol.Services.csproj.AssemblyReference.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\obj\Debug\net6.0\PracticaFutbol.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\obj\Debug\net6.0\PracticaFutbol.Services.AssemblyInfoInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\obj\Debug\net6.0\PracticaFutbol.Services.AssemblyInfo.cs
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\obj\Debug\net6.0\PracticaFutbol.Services.csproj.CoreCompileInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\obj\Debug\net6.0\PracticaFutbol.Services.csproj.CopyComplete
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\obj\Debug\net6.0\PracticaFutbol.Services.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\obj\Debug\net6.0\refint\PracticaFutbol.Services.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\obj\Debug\net6.0\PracticaFutbol.Services.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Services\obj\Debug\net6.0\ref\PracticaFutbol.Services.dll

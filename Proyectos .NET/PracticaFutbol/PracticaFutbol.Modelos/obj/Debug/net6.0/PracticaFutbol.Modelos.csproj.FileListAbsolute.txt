@@ -1,0 +1,12 @@
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\bin\Debug\net6.0\PracticaFutbol.Modelos.deps.json
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\bin\Debug\net6.0\PracticaFutbol.Modelos.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\bin\Debug\net6.0\PracticaFutbol.Modelos.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\obj\Debug\net6.0\PracticaFutbol.Modelos.csproj.AssemblyReference.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\obj\Debug\net6.0\PracticaFutbol.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\obj\Debug\net6.0\PracticaFutbol.Modelos.AssemblyInfoInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\obj\Debug\net6.0\PracticaFutbol.Modelos.AssemblyInfo.cs
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\obj\Debug\net6.0\PracticaFutbol.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\obj\Debug\net6.0\PracticaFutbol.Modelos.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\obj\Debug\net6.0\refint\PracticaFutbol.Modelos.dll
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\obj\Debug\net6.0\PracticaFutbol.Modelos.pdb
+C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol.Modelos\obj\Debug\net6.0\ref\PracticaFutbol.Modelos.dll

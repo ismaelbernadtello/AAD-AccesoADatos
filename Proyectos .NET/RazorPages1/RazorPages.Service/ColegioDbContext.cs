@@ -10,7 +10,11 @@ namespace RazorPages.Service
         {
             //no tenemos que hacer nada más, se instancia el objeto
         }
-        public DbSet<Alumno> Alumnos { get; set; } //DbSet es un objeto equivalente a un ienumerable y se usa para tratar tablas como listas y a sus elementos como items
+
+        //En este caso la tabla sería alumnos que son un conjunto de objetos de la clase Alumno
+        public DbSet<Alumno> Alumnos { get; set; } 
+        //DbSet es un objeto equivalente a un ienumerable
+        //y se usa para tratar tablas como listas y a sus elementos como items
 
     }
 }

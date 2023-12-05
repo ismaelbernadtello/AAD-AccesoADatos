@@ -556,6 +556,9 @@
         }
       },
       "RazorPages.Modelos/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.13"
+        },
         "runtime": {
           "RazorPages.Modelos.dll": {}
         }

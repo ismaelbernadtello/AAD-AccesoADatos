@@ -15,7 +15,7 @@ namespace RazorPages1.Pages.Alumnos
         private readonly IAlumnoRepositorio alumnoRepositorio;
         public IWebHostEnvironment WebHostEnvironment { get; }//en el destornillador crear y asignar la propiedad
 
-        [BindProperty]//esto permite que se actualice
+        [BindProperty]//esto permite que se actualice, en la vista se rellena el objeto alumno
         public Alumno alumno { get; set; }
 
         //el atributo Photo de la clase IFormFile que es diferente del atributo Foto de la clase Alumno
@@ -31,7 +31,8 @@ namespace RazorPages1.Pages.Alumnos
         //se ejecuta siempre al cargar la página a no ser que se haya espeficado que se envían los parámetros con el post
         //le decimos que puede recibir o no un int
         public IActionResult OnGet(int? id)
-        {
+        { //si id tiene valor, es que estamos editando un alumno
+            // si no tiene valor, es que estamos creando un alumno nuevo
             if (id.HasValue)
             {
                 //para que no de error, porque id no sabemos lo que es, le decimos que coja el valor
@@ -49,7 +50,7 @@ namespace RazorPages1.Pages.Alumnos
         {
             if (ModelState.IsValid)//si he rellenado todos los campos required
             {
-                if (Photo != null)
+                if (Photo != null) //Si hemos subido una foto
                 {
                     {
                         if(alumno.Foto != null)
@@ -60,9 +61,9 @@ namespace RazorPages1.Pages.Alumnos
                     }
                     alumno.Foto = ProcessUploadedFile();
                 }
-                if (alumno.Id != 0)
+                if (alumno.Id != 0) //Si no es un alumno nuevo, lo actualizamos
                     alumnoRepositorio.Update(alumno);
-                else
+                else //Si es un alumno nuevo, lo añadimos
                     alumnoRepositorio.Add(alumno);
                 return RedirectToPage("Index");
             }else

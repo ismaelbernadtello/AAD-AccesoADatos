@@ -1,0 +1,49 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PracticaFutbol
+build_property.RootNamespace = PracticaFutbol
+build_property.ProjectDir = C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ismae\Desktop\GITHUB-2º\AAD-AccesoADatos\Proyectos .NET\PracticaFutbol\PracticaFutbol
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/PracticaFutbol/PracticaFutbol/Pages/Equipos/ListarEquipos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xMaXN0YXJFcXVpcG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/PracticaFutbol/PracticaFutbol/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/PracticaFutbol/PracticaFutbol/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/PracticaFutbol/PracticaFutbol/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/PracticaFutbol/PracticaFutbol/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/PracticaFutbol/PracticaFutbol/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/PracticaFutbol/PracticaFutbol/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/PracticaFutbol/PracticaFutbol/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-787sr0sc77

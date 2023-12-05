@@ -1,0 +1,18 @@
+﻿@page
+@model PracticaFutbol.Pages.Equipos.ListarEquiposModel //Indica el controlador que va a utilizar
+@{
+}
+<h1>Equipos</h1>
+
+<div class="card-group">
+    @foreach (var equipo in Model.EquiposLista)
+    //Ponemos el nombre de la lista que tenemos en el controlador
+    {
+        <div class="card m-3 border" style="min-width: 18rem; max-width:30%">
+            <div class="card-footer text-center">
+                <h3>@equipo.NombreEquipo</h3>
+                
+            </div>
+        </div>
+    }
+</div>

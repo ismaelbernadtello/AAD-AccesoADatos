@@ -108,6 +108,7 @@ namespace RazorPages.Service
           
         }
 
+        //Se usan para buscar en 
         public IEnumerable<Alumno> FindAlumnos(string elementoABuscar)
         {
             if (string.IsNullOrEmpty(elementoABuscar))

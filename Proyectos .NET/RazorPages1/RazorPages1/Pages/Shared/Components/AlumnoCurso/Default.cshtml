@@ -1,5 +1,7 @@
 ﻿@model IEnumerable<CursoCuantos>
 <!-- Aquí (model) va a llegar una lista de objetos de la clase CursoCuantos viene del componente AlumnoCursoViewComponent.cs-->
+<!--¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡IMPORTANTE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
 <h3>Alumnos por Curso</h3>
 <table class="table table-bordered">
     <thead class="thead-ligth">
@@ -9,12 +11,12 @@
         </tr>
     </thead>
     <tbody>
-        @foreach(var curso in Model)
+        @foreach(var curso in Model) //Curso es la lista que se pasa desde el viewComponent
         {
-                <tr>
-                    <td>@curso.Clase</td>
-                    <td>@curso.NumAlumnos</td>
-                </tr>            
+            <tr>
+                <td>@curso.Clase</td>
+                <td>@curso.NumAlumnos</td>
+            </tr>            
         }
     </tbody>
 </table>

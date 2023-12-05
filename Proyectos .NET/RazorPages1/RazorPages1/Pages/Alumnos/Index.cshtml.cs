@@ -6,6 +6,7 @@ using System.Runtime.CompilerServices;
 
 namespace RazorPages1.Pages.Alumnos
 {
+    //Los : son como los extends de java
     public class IndexModel : PageModel
     {
         //declaramos un atributo de clase de la clase IAlumnoRepositorio para poder llamar al método GetAllAlumnos
