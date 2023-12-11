@@ -1,0 +1,25 @@
+﻿@using ExamenIsmaelBernad.Modelos;
+@model IEnumerable<ComunidadCuantos>
+
+
+<table class="table table-bordered text-center">
+    <thead class="thead-ligth">
+        <tr>
+            <th>Comunidad</th>
+            <th>superficieTotal</th>
+            <th>numHabitantesTotal</th>
+            <th>numProvinciasTotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ComunidadCuantos in Model)
+        {
+            <tr>
+                <td>@ComunidadCuantos.Comunidad</td>
+                <td>@ComunidadCuantos.superficieTotal</td>
+                <td>@ComunidadCuantos.numHabitantesTotal</td>
+                <td>@ComunidadCuantos.numProvinciasTotal</td>
+            </tr>
+        }
+    </tbody>
+</table>

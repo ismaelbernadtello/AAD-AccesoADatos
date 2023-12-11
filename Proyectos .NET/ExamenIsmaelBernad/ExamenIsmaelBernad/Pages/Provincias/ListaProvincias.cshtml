@@ -4,6 +4,12 @@
 }
 <h1>Provincias</h1>
 
+
+<div class="col-sm-8">
+    @await Component.InvokeAsync("ProvinciasComunidad")
+</div>
+
+
 <div class="card-group">
     @foreach(var provincia in Model.Provincias)
     {

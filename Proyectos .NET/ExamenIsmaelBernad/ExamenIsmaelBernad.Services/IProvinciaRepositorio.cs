@@ -12,7 +12,8 @@ namespace ExamenIsmaelBernad.Services
         //Método para listar las provincias
         IEnumerable<Provincia> GetAllProvincias();
 
-        IEnumerable<ProvinciaComunidad> GetProvinciasComunidad(Comunidad? comunidad);
+        IEnumerable<ComunidadCuantos> ComunidadCuantosProvincia(Comunidad? comunidad);
 
+        IEnumerable<Provincia> GetAllProvinciasPorComunidad(Comunidad? comunidad);
     }
 }

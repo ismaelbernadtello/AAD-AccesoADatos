@@ -7,5 +7,5 @@ namespace RazorPages.Modelos
 		public int NumAlumnos { get; set; }
         
 	}
-}
+}	
 

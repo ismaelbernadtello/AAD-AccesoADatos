@@ -28,8 +28,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/ExamenIsmaelBernad/ExamenIsmaelBernad/Pages/Provincias/FormularioComunidad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmluY2lhc1xGb3JtdWxhcmlvQ29tdW5pZGFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/ExamenIsmaelBernad/ExamenIsmaelBernad/Pages/Provincias/ListaProvincias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmluY2lhc1xMaXN0YVByb3ZpbmNpYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/ExamenIsmaelBernad/ExamenIsmaelBernad/Pages/Provincias/ProvinciasPorComunidad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmluY2lhc1xQcm92aW5jaWFzUG9yQ29tdW5pZGFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/ExamenIsmaelBernad/ExamenIsmaelBernad/Pages/Shared/Components/ProvinciasComunidad/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcUHJvdmluY2lhc0NvbXVuaWRhZFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ismae/Desktop/GITHUB-2º/AAD-AccesoADatos/Proyectos .NET/ExamenIsmaelBernad/ExamenIsmaelBernad/Pages/Shared/_ValidationScriptsPartial.cshtml]

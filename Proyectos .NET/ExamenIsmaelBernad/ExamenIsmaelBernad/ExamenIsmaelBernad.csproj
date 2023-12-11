@@ -16,9 +16,4 @@
     <ProjectReference Include="..\ExamenIsmaelBernad.Services\ExamenIsmaelBernad.Services.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Components\" />
-    <Folder Include="Pages\Shared\Components\" />
-  </ItemGroup>
-
 </Project>

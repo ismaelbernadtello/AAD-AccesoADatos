@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ExamenIsmaelBernad.Modelos;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using ExamenIsmaelBernad.Modelos;
 
 namespace ExamenIsmaelBernad.Services
 {
@@ -25,7 +25,7 @@ namespace ExamenIsmaelBernad.Services
             //También se puede hacer con return context.Provincias
         }
 
-        public IEnumerable<ProvinciaComunidad> GetProvinciasComunidad(Comunidad? comunidad)
+        public IEnumerable<ComunidadCuantos> ComunidadCuantosProvincia(Comunidad? comunidad)
         {
             IEnumerable<Provincia> consulta = context.Provincias;
             if (comunidad.HasValue)
@@ -34,7 +34,7 @@ namespace ExamenIsmaelBernad.Services
             }
 
             return consulta.GroupBy(p => p.codComunidad)
-                .Select(g => new ProvinciaComunidad() 
+                .Select(g => new ComunidadCuantos() 
                 { 
                     Comunidad = g.Key.Value,
                     superficieTotal = g.Sum(p => p.superficie),
@@ -42,6 +42,18 @@ namespace ExamenIsmaelBernad.Services
                     numProvinciasTotal = g.Count()
                 }).ToList();
                 }
+
+        public IEnumerable<Provincia> GetAllProvinciasPorComunidad(Comunidad? comunidad)
+        {
+           IEnumerable<Provincia> consulta = context.Provincias;
+            if (comunidad.HasValue)
+            {
+                consulta = consulta.Where(p => p.codComunidad == comunidad).ToList();
+            }
+            return consulta;
         }
 
+    }
+
+        
 }
