@@ -1,18 +1,30 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MVC2024.Models;
 
 namespace MVC2024.Controllers
 {
     public class marcaController : Controller
-    {
+    { 
         //Aqui se crean los metodos que se van a llamar desde las vistas
 
         //Los metodos tendran el mismo nombre que las vistas
 
+
+        public Contexto Contexto { get; } //Se crea un objeto de la clase contexto, para poder usar sus métodos (acceder a la base de datos)
+
+        public marcaController(Contexto contexto)
+        {
+            Contexto = contexto;
+        }
+
+       
+
         // GET: marcaController
         public ActionResult Index() //metodo que devuelve una vista
         {
-            return View(); //devuelve la vista
+            List<marcaModelo> lista = Contexto.Marcas.ToList(); //crea una lista de marcas y la rellena con los datos de la tabla marcas
+            return View(lista); //devuelve la vista
         }
 
         // GET: marcaController/Details/5
@@ -28,15 +40,17 @@ namespace MVC2024.Controllers
         // GET: marcaController/Create
         public ActionResult Create() 
         {
-
             return View();
         }
 
         // POST: marcaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(marcaModelo marca)
         {
+            Contexto.Marcas.Add(marca); //añade la marca a la tabla marcas
+            Contexto.Database.EnsureCreated(); //asegura que la base de datos se ha creado
+            Contexto.SaveChanges(); //guarda los cambios en la base de datos
             try
             {
                 return RedirectToAction(nameof(Index));
