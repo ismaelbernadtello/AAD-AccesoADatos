@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using MVC2024.Models;
 
 namespace MVC2024.Controllers
@@ -27,6 +28,15 @@ namespace MVC2024.Controllers
             return View(lista); //devuelve la vista
         }
 
+        public ActionResult Desplegable() 
+        {
+            //ViewBag es un objeto que se puede usar para pasar datos a la vista, es un 'contenedor' de datos
+            ViewBag.Marcas = new SelectList(Contexto.Marcas, "Id", "NomMarca");
+            //crea un desplegable con los datos de la tabla marcas y lo guarda en el ViewBag
+            ViewBag.Marcas2 = Contexto.Marcas.ToList();
+            return View();
+        }
+
         // GET: marcaController/Details/5
         public ActionResult Details(int id)
         {
@@ -40,6 +50,7 @@ namespace MVC2024.Controllers
         // GET: marcaController/Create
         public ActionResult Create() 
         {
+            ViewBag.MarcaId = new SelectList(Contexto.Marcas, "Id", "NomMarca");
             return View();
         }
 
